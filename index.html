@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Tool Studio</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p>Last updated: 9/7/2026</p>
+    
+    <p>Welcome to Tool Studio. We take your privacy seriously. This policy details what data we collect and how we handle it.</p>
+    
+    Tool Studio is an AI-assisted content creation toolkit for writing, marketing, SEO,
+prompt and image tools. This page explains what information is collected, how it is
+used, who it is shared with, and the choices you have over it.
+
+Tool Studio is provided by its developer (Issac Ashraf). Questions about this policy or
+your data can be sent to privacy@issactools.com.
+
+## 1. Overview
+
+- Using the tools requires a free account (email address). Signing in only identifies
+  you; the content you create stays on your device and is never uploaded to your
+  account.
+- We do not sell personal data. We do not show ads and do not use advertising or
+  analytics SDKs. We do not train AI models on your content.
+
+## 2. What we collect and where it lives
+
+- **Account data (cloud).** When you create an account you provide an email address and
+  a password. The password is stored only as a salted, hashed credential by our
+  authentication provider (Supabase Auth); we never see or store your plain-text
+  password. A minimal profile row (user ID and a display name derived from your email
+  prefix) is created so the app can identify you when you sign in.
+- **Generated content (your device).** Tool Studio does not upload your generations or
+  preferences to your account. History, Gallery, favorites and preferences are stored
+  only in your device's local storage and are removed when you clear it or delete the
+  app.
+- **Prompts & outputs (transient).** When you run a tool, the text or image prompt you
+  enter is sent to a third-party AI provider solely to produce your result. The result
+  is returned to you; Tool Studio does not retain the prompt or output beyond fulfilling
+  the request, and they are not used to improve any AI model.
+- **Usage logs (server).** Request logs record which tool was used, the model, latency,
+  token counts and a rate-limited IP address so we can operate the service and enforce
+  fair-use limits. Logs never include your prompt text, generated content, email
+  address or password.
+- **What we do not collect:** no precise location, contacts, photos, files,
+  microphone, camera, purchase history or payment information. No advertising
+  identifiers are used.
+
+## 3. Third-party processors
+
+- **Supabase (supabase.com)** hosts account authentication and the database that stores
+  account profiles. Row Level Security is enabled so each user can only access their own
+  data.
+- **OpenRouter (openrouter.ai) and the AI model providers it routes to** (which may
+  include OpenAI, Google, Meta, Nvidia and others) receive the text you submit to a
+  text-generation tool in order to generate the response, under each provider's terms.
+- **Pollinations.ai** receives image prompts to render generated images. Image prompts
+  can be visible inside the public image URL returned to you, so avoid including private
+  information in image prompts.
+- **Google Fonts** are loaded from Google's CDN; a standard font request (including IP
+  address) is made by your browser. No account data is involved.
+- If you are in the EEA/UK, note that some providers may operate outside the EEA; by
+  using the tools you consent to this processing.
+
+## 4. How we use your information
+
+- To provide the service: authenticating you and generating the content you request.
+- To operate and secure the service: rate limiting, abuse prevention and diagnosing
+  failures from aggregate usage logs.
+- To contact you about your account: confirmation, password-reset and similar
+  transactional emails through Supabase when you request them. We never send marketing
+  email and never sell or rent your address.
+
+## 5. Retention
+
+- Sign-in credentials and your profile are kept while your account is active. Deleting
+  your account removes your credential and profile. Content on your device is not
+  affected by server deletion; use "Clear device data" (Account & Data) or uninstall the
+  app to remove it.
+- Usage logs are kept in a rotating file (5 MB × 3 backups) and are removed
+  automatically as the log rotates; they contain no content.
+- Prompts and outputs sent to AI providers are governed by those providers' retention
+  policies.
+
+## 6. Your choices, account deletion & your rights
+
+- **Device data:** open Account & Data and choose "Clear device data" to remove history,
+  gallery and preferences stored on the current device.
+- **Account deletion:** open Account & Data → "Delete account & data". Deletion is
+  immediate and permanent — your email credential and profile are removed from the
+  authentication provider and you are signed out.
+- If in-app deletion is ever unavailable, email privacy@issactools.com from the address
+  registered to the account with the subject "Account deletion request"; we process it
+  within 30 days.
+- You may also request access to, a copy of, or correction of your account data, or
+  withdraw consent for processing, by emailing privacy@issactools.com; we respond within
+  30 days. If you are in the EEA/UK you may also complain to your local
+  data-protection authority.
+
+## 7. Security
+
+- Passwords are hashed and stored by Supabase Auth; we never handle plain-text
+  passwords.
+- Account data is protected by database Row Level Security and authenticated API
+  endpoints.
+- The backend never returns raw error traces, and API keys live only in server-side
+  environment files — never in the app.
+- No security measure is perfect. Please use a strong, unique password and contact us
+  about any suspected issue.
+
+## 8. AI output disclaimer & responsible use
+
+- Generated content may contain errors, inaccuracies, hallucinations or unintended
+  bias. Always review and fact-check AI output before publishing, sending or acting on
+  it.
+- AI outputs are provided "as is", without warranties of accuracy, originality or
+  fitness for a particular purpose.
+- You are responsible for the content you produce, including compliance with copyright,
+  marketing and anti-spam laws (for example CAN-SPAM and GDPR) where you operate.
+- Do not paste confidential, personal or sensitive information into tools if you are not
+  comfortable sending it to third-party AI providers, and do not generate illegal,
+  defamatory, hateful or otherwise harmful content.
+- If you use generated images commercially, verify the image provider's licensing terms
+  first.
+
+## 9. Children
+
+Tool Studio is intended for adults and professionals, not children. It is not directed
+to children under 13 (or the minimum digital-consent age in your region), and we do not
+knowingly collect personal information from children. If you believe a child has
+provided us personal information, contact privacy@issactools.com and we will delete it.
+
+## 10. Terms of use & fair use
+
+- The service is provided free of charge. Fair-use limits apply to AI generations (for
+  example a per-device hourly limit); exceeding them returns a friendly message asking
+  you to try again later. No paid tier currently exists.
+- You may not resell access to the app or its API, use it to build a competing service,
+  automate it to bypass fair-use limits, or use it to send spam.
+- We may change, limit or discontinue features at any time. Continued use after changes
+  constitutes acceptance of the updated terms.
+- If we change this policy materially, we will update the date above and, where
+  practical, notify you in the app.
+
+
+</body>
+</html>
